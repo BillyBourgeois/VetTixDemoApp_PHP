@@ -1,0 +1,21 @@
+{
+  "name": "vettix/demo",
+  "description": "VetTix Demo App",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Billy Bourgeois",
+      "email": "billy.j.bourgeois@gmail.com"
+    }
+  ],
+  "require": {
+    "nategood/httpful": "^0.3.2",
+    "php-http/curl-client": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "VetTix\\": "/"
+    }
+  }
+}
